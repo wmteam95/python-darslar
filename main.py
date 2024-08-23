@@ -63,5 +63,5 @@ mevalar_a = list(filter(lambda meva:meva.startswith(harf), mevalar))
 mevalar2 = list(filter(lambda meva:len(meva)<=4, mevalar))
 # print(mevalar2)
 
-mevalar3 = list(filter(lambda meva: (meva.startswith('a') and meva.endswith('r')), mevalar))
-print(mevalar3)
+mevalar4 = list(filter(lambda meva: (meva.startswith('a') and meva.endswith('r')), mevalar))
+print(mevalar4)
